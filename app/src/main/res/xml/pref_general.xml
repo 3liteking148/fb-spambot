@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Spam Message (Line 1) [Required]" android:key="config1" android:defaultValue="Hello World!" />
+    <EditTextPreference android:title="Spam Message (Line 2) [Optional]" android:key="config4" android:defaultValue="" />
+    <EditTextPreference android:title="Spam Message (Line 3) [Optional]" android:key="config5" android:defaultValue="" />
+    <EditTextPreference android:title="Spam Message (Line 4) [Optional]" android:key="config6" android:defaultValue="" />
+    <EditTextPreference android:title="Spam Message (Line 5) [Optional]" android:key="config7" android:defaultValue="" />
+    <EditTextPreference android:title="Spam Amount" android:key="config2" android:defaultValue="10" />
+    <EditTextPreference android:title="Spam Frequency in Seconds" android:key="config3" android:defaultValue="1"/>
+    <PreferenceScreen
+        android:title="Donate" />
+</PreferenceScreen>
